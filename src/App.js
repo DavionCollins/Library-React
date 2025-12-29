@@ -7,7 +7,6 @@ import { books } from "./data";
 import BookInfo from "./Pages/BookInfo";
 import Cart from "./Pages/Cart";
 import { useEffect, useState } from "react";
-import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [cart, setCart] = useState([]);
